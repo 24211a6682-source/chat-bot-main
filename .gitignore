@@ -1,0 +1,31 @@
+# Node dependencies
+# This folder can be huge and is re-created by running 'npm install'
+node_modules/
+
+# Firebase cache and local auth files
+# Contains sensitive info and local user sessions
+.firebase/
+
+# Firebase Debug logs
+firebase-debug.log*
+*.log
+
+# Environment variables
+# DO NOT commit these files. They contain your secret API keys.
+.env
+.env.*
+!.env.example
+
+# Service Account private keys
+# These JSON files grant full access to your Firebase project. NEVER commit them.
+*.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration files
+.vscode/
+.idea/
+
+.env.local
